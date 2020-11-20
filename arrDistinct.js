@@ -1,3 +1,7 @@
+/** 
+ * 一些数组去重的方法整理
+*/
+
 console.log(Array.from('foo'))  //['f','o','o']
 console.log(Array.from([1,2,3], x => x+x))  //[2,4,6]
 //定义两个长度为10W和5W的数组
