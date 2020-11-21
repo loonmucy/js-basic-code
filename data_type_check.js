@@ -4,6 +4,7 @@
  * instanceof可以用来检测引用类型，但对于基本类型不生效;
  * constructor可用于检测基本类型和引用类型(null、undefined除外)，但当涉及到原型和继承时，会出现问题;
  * Object.property.toString.call()可用于检测js所有的数据类型,包括null、undefined、原型继承;
+ * 所以检测数组可以用instanceof、constructor、Object.property.toString.call();
  */
 
  //基本数据类型除了null都会返回正确的类型（number、string、boolean、undefined）；null返回object
